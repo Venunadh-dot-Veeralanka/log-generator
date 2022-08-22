@@ -1,0 +1,3 @@
+level= INFO, message= org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-$INT-$IP-$INT:blk_$INT_$INT src: /$IP:5000 dest: /$IP:10019
+level=INFO, message= org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /$IP:5000, dest: /$IP:10019, bytes: $INT, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-$INT_$INT, offset: 0, srvID: 70159663-aa97-4e8c-9c6a-4fcac15f4617, blockid: BP-1172899279-$IP-$INT:blk_$INT_$INT, duration: $INT
+level=INFO, message = org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-$INT-$IP-$INT:blk_$INT_$INT, type=HAS_DOWNSTREAM_IN_PIPELINE terminating

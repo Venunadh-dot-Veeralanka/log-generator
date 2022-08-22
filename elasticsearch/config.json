@@ -1,0 +1,22 @@
+{
+    "file_path"			 : "/mnt/data/log-generator-ver3",
+    "file_name"			 : "log.txt",
+    "file_write"         : false,
+    "file_size_rotate"   : 500,
+    "compress_old_logs"  : true,
+    "es_key"     : "77MlnwenGXyHJthzxR2HgvcHUSEOdTrYNKk7DV6kygEaS3owJQhNdCkUsl+Q1qx9KZA7Mvvxgl3nMNooq7JhZtI4dfELvRnVxXJoZh8beHEdvJ+O9xKbV+M9K5GgfDVvagd89nnflnYyShFQSozLxtFJJrtbN1Ytcf1KCaVw/bl6HVeA6MFBMelqzf0IID8MD0VkjeSXNrNB94dwZl4IUV5ySf4TqX0+RXJC7prSA3yOdTu9qBzqvcJWPQEfY1KG6qwhRN+Gy4i798h59LsWZjpLGIXCtwjMIzZDZ3RBwuj2uwQJqMPsvEE6XKnf67oJ3676mQsuNtVnu9kx3B8bPp9asQYYHOLCqy3NvSv0cUI=",
+    "project_name" : "Manohar",
+    "tags"       : {
+        "_tag_projectName" : "Manohar",
+        "_tag_appName"     : "test",
+        "_tag_Name"        : "testStub",
+        "_plugin"          :  "test-stub",
+		"_documentType"     :"elasticsearch-general"
+    },
+    "es_send"    : true,
+	"bulk_size"  : 2,
+    "logs_per_min" : 100000,
+	"log_interval" : 10,
+    "time_format": "Jan 2 15:04:05"
+}
+

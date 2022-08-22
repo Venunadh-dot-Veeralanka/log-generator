@@ -1,0 +1,15 @@
+level=info,  message= *6388312 upstream timed out ($INT: Connection timed out) while connecting to upstream, client: $IP, server: , request: "POST /owners/new HTTP/1.1", upstream: "http://$IP:$INT/owners/new", host: "$IP"
+level=info, message=  pam_unix(sudo:session): session closed for user root
+level=info, message= pam_unix(cron:session): session opened for user root by (uid=0)
+level=info, message = Could not find an entry for this IP address ($IP)
+level=info, message = Created slice User Slice of root.
+level= warning, message = Removed slice User Slice of root.
+level =info, message =  root : TTY=unknown ; PWD=/opt/sfagent ; USER=root ; COMMAND=/bin/jstat -class $INT
+level = error , message = Invalid user ts3server from $IP port $INT
+level = info, message = DHCPREQUEST of $IP  on ens5 to $IP port $INT(xid=0x333b7320)
+level = info, message =DHCPACK of $IP from $IP
+level = info, message =(root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+level = info, message =bound to $IP -- renewal in $INTseconds.
+level = error, message =Did not receive identification string from $IP
+level= error, message = sshd[41458] : Failed password for root from $IP port 22 ssh2
+level=error, message = “sshd - - pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=$IP
